@@ -6,6 +6,32 @@
  * it makes 51234 and check this number is prime or not by sieve algo that it.
  */
 
+/*
+************************** you can use this idea also to rotate the number, this is my first click when i see this problem ***
+bool check(int n){
+    vector<int> ds;
+    int temp = n;
+    while(temp){
+        ds.push_back(temp % 10);
+        temp /= 10;
+    }
+    reverse(ds.begin(), ds.end());
+    int len = ds.size();
+    for(int i=0;i<len;i++){
+        vector<int> cur = ds;
+        rotate(cur.begin(), cur.begin()+i, cur.end());
+        int num = 0;
+        for(int j=0;j<len;j++)
+            num = num*10 + cur[j];
+
+        if(!prime[num])
+            return false;
+    }
+    return true;
+}
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
