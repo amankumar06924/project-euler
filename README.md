@@ -1,4 +1,5 @@
-Project Euler Solutions
+<h1 align="center"> Project Euler Solutions</h1>
+
 
 This repository contains my solutions to various problems from Project Euler implemented in C++.
 
