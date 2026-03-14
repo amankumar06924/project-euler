@@ -1,3 +1,4 @@
+/* use sieve algo to compute prime then count the no of prime <= n */
 #include <iostream>
 #include <vector>
 using namespace std;
