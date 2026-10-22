@@ -3,6 +3,6 @@
 
 This repository contains my solutions to various problems from Project Euler implemented in C++.
 
-Project Euler is a collection of challenging mathematical and algorithmic problems that require both mathematical insight and efficient programming.
+Project Euler is a collection of challenging mathematical and algorithmic problems that require both mathematical insight and efficient programming. https://www.hackerrank.com/contests/projecteuler/challenges
 
 Each problem is solved in cpp and includes detailed explanations of the logic and approach inside the code.
